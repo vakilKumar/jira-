@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper,
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.wrapper {
+    /* background-color: brown; */
+}
+
+
+
+/* .wrapper header{
+    background-color: aqua;
+} */
+
+.head {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+.plus {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(16, 17, 112, 0.472);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    border-radius: 50%;
+    font-size: xx-large;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: whitesmoke;
+    
+}
+
+/* .plus:hover {
+    background-color: cadetblue;
+} */
+
+.wrapper footer {
+    background-color:lightslategray;
+    margin-top: auto;
+}
+
+.wrapper.header {
+    display: flex;
+    background-color: burlywood;
+    height: 40px;
+}
+
+.header{
+    font-size:xx-large;
+}
+
+.box {
+    height: 50px;
+    width: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid black;
+}
+
+.middle-box1 {
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto; */
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.middle-box2 {
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto; */
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.middle-box3 {
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto; */
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.middle-box-heading {
+    margin-right: auto;
+    font-size: 1.5rem;
+    
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.main-box {
+    height: 200px;
+    background-color: lightblue;
+    width: 200px;
+    margin: 10px;
+    
+}
+.box-first{
+    display: flex;
+    border-bottom: black solid 2px;
+    
+
+
+}
+
+.dialog {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+   
+}
+
+.container-box{
+    height:350px;
+    width: 350px;
+    background-color: grey;
+    position: relative;
+}
+
+.dialog .container-box header{
+    background-color: rgb(36, 158 , 206);
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.dialog .container-box div,
+.dialog .container-box div input,
+.dialog .container-box div textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+.dialog .container-box main {
+    margin-top: 20px;
+}
+
+
+/* .cross{
+    position: absolute;
+    display: flex;
+    width: 20px;
+
+    background-color: lightcoral;
+} */
+
+.cross{
+    background-color: red;
+    height: 40px;
+    width: 40px!important;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    right:-20px;
+    color:whitesmoke;
+    border:none;
+    font-size: xx-large;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* .main-box.box-first.text-area {
+    height: 140px;
+    width: 170px;
+    margin: 5px;
+    
+} */
+
+.text-area{
+    height: 157px;
+    width: 100px;
+}
+
+.main-cont{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.color{
+   height: 50px;
+   width: 200px;
+   display: flex;
+   background-color: brown;
+   justify-content: end;
+  
+
+}
+
+.color-red{
+  height: 80px;
+  width: 50px;
+  background-color: red;
+   
+
+
+}
+.color-blue{
+    height: 80px;
+    width: 50px;
+    background-color: blue;
+   
+    
+
+}
+.color-yellow{
+   
+    height: 80px;
+    width: 50px;
+    background-color: yellow
+}
+.color-black{
+    height: 80px;
+  width: 50px;
+  background-color:black;
+}
+
+
